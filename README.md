@@ -15,3 +15,21 @@
 	<artifactId>springfox-boot-starter</artifactId>
 	<version>3.0.0</version>
 </dependency>
+
+5.Mapper 못잧는이유
+
+-잘못된 예
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis</artifactId>
+    <version>3.5.9</version>
+</dependency>
+
+-잘된에
+    <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>2.2.2</version>
+    </dependency>
+
+    
